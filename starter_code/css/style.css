@@ -92,8 +92,37 @@ background: #f9e42e;
 border-radius: 5px;
 width: 80px; 
 }
-footer {
 
+.benefits{
+  background: #f0efef ;
+  font-weight: 600;
+  font-size: 24px;
+  color: #121212;
+}
+
+.benefits li{
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.benefits h4{
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.testimonial{
+  /* background-color: #033048; */
+  background-image: url("../images/testimonial_bg.jpg")
+}
+.sign-up h1{
+  font-weight: 800;
+  font-size: 12px;
+  background-color: #033048
+  border-radius: 5px;
+}
+footer {
+  font-size: 24px;
+  font-weight: 800;
 }
 
 /******************************************
