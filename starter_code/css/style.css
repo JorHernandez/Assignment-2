@@ -12,33 +12,33 @@ Developer @GA in NYC
 
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-  clear: both;
+clear: both;
 }
 
 .alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+float: right;
+padding: 0 0 10px 10px; /* note the padding around a right floated image */
 }
 
 .alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+float: left;
+padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
 /******************************************
@@ -46,12 +46,12 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: 'Open Sans', sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+   background-size: cover;
 }
 
 
@@ -61,9 +61,9 @@ body {
 
 /* Center the container */
 #container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
+width: 100%;
+margin: auto;
+height: 500px;
 
 }
 
@@ -72,10 +72,10 @@ header {
 }
 
 header h1{
-  height: 200px;
-  font-weight: 800;
-  font-size: 24px;
-  color: #ffff;
+height: 200px;
+font-weight: 800;
+font-size: 24px;
+color: #ffff;
 }
 
 header h2{
@@ -84,14 +84,14 @@ font-size: 24px;
 }
 
 h3{
-  font-weight: 800;
-  font-size: 14px;
-  background: #f9e42e; 
-  border-radius: 5px;
-  width: 80px; 
+font-weight: 800;
+font-size: 14px;
+background: #f9e42e; 
+border-radius: 5px;
+width: 80px; 
 }
 footer {
- 
+
 }
 
 /******************************************
