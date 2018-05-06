@@ -51,7 +51,8 @@ body {
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-   background-size: cover;
+   background-size: contain;
+   text-align: center;
 }
 
 
@@ -67,17 +68,21 @@ height: 500px;
 
 }
 
-header {
+.page-header {
+height: 100px;
+/* }
 
-}
-
-header h1{
-height: 320px;
+header h1{ */
+/* height: 320px; */
 font-weight: 800;
 font-size: 24px;
 color: #ffff;
-margin: auto;
+margin: 0 0 10% 0;
 width: 100%;
+text-align: left;
+float: right;
+padding: 0 0 10px 10px;
+border: 0 0 10% 0;
 }
 
 h2{
@@ -90,7 +95,8 @@ font-weight: 800;
 font-size: 14px;
 background: #f9e42e; 
 border-radius: 5px;
-width: 80px; 
+width: 80px;
+text-align: center; 
 }
 
 .benefits{
@@ -111,14 +117,19 @@ width: 80px;
 }
 
 .testimonial{
-  /* background-color: #033048; */
+  background-color: #033048;
   background-image: url("../images/testimonial_bg.jpg")
+}
+.sign-up{
+  background-color: #f9e42e;
+  height: 80px;
 }
 .sign-up h1{
   font-weight: 800;
   font-size: 12px;
   background-color: #033048
   border-radius: 5px;
+  height: 10px;
 }
 footer {
   font-size: 24px;
