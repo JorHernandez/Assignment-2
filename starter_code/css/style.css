@@ -46,12 +46,12 @@ padding: 0 10px 10px 0; /* note the padding around a left floated image */
 /*******************************************/
 
 body {
-  color: #000;
+  color: #ffff;
   font-size: 12px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-   background-size: contain;
+  background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+   background-size: cover;
    text-align: center;
 }
 
@@ -68,12 +68,8 @@ height: 500px;
 
 }
 
-.page-header {
+header {
 height: 100px;
-/* }
-
-header h1{ */
-/* height: 320px; */
 font-weight: 800;
 font-size: 24px;
 color: #ffff;
@@ -85,18 +81,30 @@ padding: 0 0 10px 10px;
 border: 0 0 10% 0;
 }
 
-h2{
-font-weight: 800;
-font-size: 24px;
+.header h1{
+float: left;
+padding: 0 0 10px 10px;
 }
 
-h3{
+h2{
+  display: inline-flex;
+  justify-content: flex-center;
+  align-items: center;
+font-weight: 800;
+font-size: 24px;
+text-align: center;
+}
+
+.now-button h3{
 font-weight: 800;
 font-size: 14px;
 background: #f9e42e; 
 border-radius: 5px;
-width: 80px;
-text-align: center; 
+width: 95px;
+margin: 0 20% 0 0;
+height: 20px;
+margin: 7% auto;
+color:#121212;
 }
 
 .benefits{
@@ -119,6 +127,8 @@ text-align: center;
 .testimonial{
   background-color: #033048;
   background-image: url("../images/testimonial_bg.jpg")
+  font-size: 18px;
+
 }
 .sign-up{
   background-color: #f9e42e;
