@@ -53,7 +53,10 @@ body {
   background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
    background-size: cover;
    text-align: center;
+   
 }
+
+
 
 
 /******************************************
@@ -98,7 +101,7 @@ text-align: center;
 .now-button h3{
 font-weight: 800;
 font-size: 14px;
-background: #f9e42e; 
+background: #f9e42e;
 border-radius: 5px;
 width: 95px;
 margin: 0 20% 0 0;
@@ -107,16 +110,38 @@ margin: 7% auto;
 color:#121212;
 }
 
-.benefits{
+.benefits {
   background: #f0efef ;
   font-weight: 600;
   font-size: 24px;
   color: #121212;
+  text-align: left;
+  padding: 0 0 10px 10px;
+  text-indent: 5%;
+}
+
+.benefits p{
+  font-weight: 600;
+  font-size: 20px; 
+}
+
+.benefits ul{
+  list-style-type: disc;
+  background: #f0efef;
+  text-indent: 7%;
+  padding-left:5em;
 }
 
 .benefits li{
   font-size: 13px;
   font-weight: 300;
+  background: #f0efef;
+  padding-left:1em;
+  padding-left:1em;
+}
+li span{
+  display:block;
+  margin-left:-8.5em;
 }
 
 .benefits h4{
@@ -125,10 +150,32 @@ color:#121212;
 }
 
 .testimonial{
-  background-color: #033048;
   background-image: url("../images/testimonial_bg.jpg")
+  display:flex;
+  justify-content: center;
+  align-items: center;
   font-size: 18px;
+  font-weight:600;
+  height: 100px;
+ 
+}
+.testimonial p{
+display:flex;
+justify-content: center;
+align-items: center;
+font: italic 18px;
+font-weight: 300;
+padding: 1em 0;
+}
 
+.testimonial h1{
+font:18px;
+font-weight: 800;
+display:flex;
+justify-content: center;
+align-items: center;
+padding: 0em;
+margin: -1em;
 }
 .sign-up{
   background-color: #f9e42e;
@@ -136,14 +183,40 @@ color:#121212;
 }
 .sign-up h1{
   font-weight: 800;
-  font-size: 12px;
-  background-color: #033048
+  font-size: 24px;
+  background-color: #121212;
   border-radius: 5px;
-  height: 10px;
+  height: 31px;
+  width: 167px;
+  border-radius: 5px;
+  padding: 0% auto;
+  display: inline-flex;
+  justify-content: flex-center;
+  margin: 25px auto;
+  padding: 2px auto;
 }
 footer {
-  font-size: 24px;
+  font-size: 9px;
   font-weight: 800;
+  background: #121212;
+}
+footer p{
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  padding: 0 0 10px 0;
+}
+
+footer h3{
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.footer media{
+width: 450px;
+max-width: 100%;
+max-height: 450px;
+
 }
 
 /******************************************
