@@ -5,19 +5,23 @@ Author: Your Name
 Developer @GA in NYC
 */
 
-
 /******************************************
 /* SETUP
 /*******************************************/
 
 /* Box Model Hack */
+
 * {
-  -moz-box-sizing: border-box; /* Firexfox */
-  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-  box-sizing: border-box; /* IE */
+  -moz-box-sizing: border-box;
+  /* Firexfox */
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box;
+  /* IE */
 }
 
 /* Clear fix hack */
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -28,17 +32,19 @@ Developer @GA in NYC
 }
 
 .clear {
-clear: both;
+  clear: both;
 }
 
 .alignright {
-float: right;
-padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  float: right;
+  padding: 0 0 10px 10px;
+  /* note the padding around a right floated image */
 }
 
 .alignleft {
-float: left;
-padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  float: left;
+  padding: 0 10px 10px 0;
+  /* note the padding around a left floated image */
 }
 
 /******************************************
@@ -50,68 +56,64 @@ body {
   font-size: 12px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
-  background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
-   background-size: cover;
-   text-align: center;
-   
+  background: url("../images/header_bg.jpg") no-repeat center top rgb(134, 141, 157);
+  background-size: cover;
+  text-align: center;
 }
-
-
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 /* Center the container */
-#container {
-width: 100%;
-margin: auto;
-height: 500px;
 
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
 }
 
 header {
-height: 100px;
-font-weight: 800;
-font-size: 24px;
-color: #ffff;
-margin: 0 0 10% 0;
-width: 100%;
-text-align: left;
-float: right;
-padding: 0 0 10px 10px;
-border: 0 0 10% 0;
+  height: 100px;
+  font-weight: 800;
+  font-size: 24px;
+  color: #ffff;
+  margin: 0 0 10% 0;
+  width: 100%;
+  text-align: left;
+  float: right;
+  padding: 0 0 10px 10px;
+  border: 0 0 10% 0;
 }
 
-.header h1{
-float: left;
-padding: 0 0 10px 10px;
+.header h1 {
+  float: left;
+  padding: 0 0 10px 10px;
 }
 
-h2{
+h2 {
   display: inline-flex;
   justify-content: flex-center;
   align-items: center;
-font-weight: 800;
-font-size: 24px;
-text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+  text-align: center;
 }
 
-.now-button h3{
-font-weight: 800;
-font-size: 14px;
-background: #f9e42e;
-border-radius: 5px;
-width: 95px;
-margin: 0 20% 0 0;
-height: 20px;
-margin: 7% auto;
-color:#121212;
+.now-button h3 {
+  font-weight: 800;
+  font-size: 14px;
+  background: #f9e42e;
+  border-radius: 5px;
+  width: 95px;
+  margin: 0 20% 0 0;
+  height: 20px;
+  margin: 7% auto;
+  color: #121212;
 }
 
 .benefits {
-  background: #f0efef ;
+  background: #f0efef;
   font-weight: 600;
   font-size: 24px;
   color: #121212;
@@ -120,68 +122,70 @@ color:#121212;
   text-indent: 5%;
 }
 
-.benefits p{
+.benefits p {
   font-weight: 600;
-  font-size: 20px; 
+  font-size: 20px;
 }
 
-.benefits ul{
+.benefits ul {
   list-style-type: disc;
   background: #f0efef;
   text-indent: 7%;
-  padding-left:5em;
+  padding-left: 5em;
 }
 
-.benefits li{
+.benefits li {
   font-size: 13px;
   font-weight: 300;
   background: #f0efef;
-  padding-left:1em;
-  padding-left:1em;
-}
-li span{
-  display:block;
-  margin-left:-8.5em;
+  padding-left: 1em;
+  padding-left: 1em;
 }
 
-.benefits h4{
+li span {
+  display: block;
+  margin-left: -8.5em;
+}
+
+.benefits h4 {
   font-weight: 300;
   font-size: 13px;
 }
 
-.testimonial{
-  background-image: url("../images/testimonial_bg.jpg")
-  display:flex;
+.testimonial {
+  background-image: url("../images/testimonial_bg.jpg") display:flex;
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  font-weight:600;
+  font-weight: 600;
   height: 100px;
- 
-}
-.testimonial p{
-display:flex;
-justify-content: center;
-align-items: center;
-font: italic 18px;
-font-weight: 300;
-padding: 1em 0;
 }
 
-.testimonial h1{
-font:18px;
-font-weight: 800;
-display:flex;
-justify-content: center;
-align-items: center;
-padding: 0em;
-margin: -1em;
+.testimonial p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: italic 18px;
+  font-weight: 300;
+  padding: 1em 0;
 }
-.sign-up{
+
+.testimonial h1 {
+  font: 18px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0em;
+  margin: -1em;
+}
+
+.sign-up {
   background-color: #f9e42e;
   height: 80px;
 }
-.sign-up h1{
+
+.sign-up h1 {
   font-weight: 800;
   font-size: 24px;
   background-color: #121212;
@@ -195,34 +199,31 @@ margin: -1em;
   margin: 25px auto;
   padding: 2px auto;
 }
+
 footer {
   font-size: 9px;
   font-weight: 800;
   background: #121212;
 }
-footer p{
+
+footer p {
   font-weight: 800;
   font-size: 24px;
   color: #f9e42e;
   padding: 0 0 10px 0;
 }
 
-footer h3{
+footer h3 {
   font-size: 9px;
   font-weight: 600;
 }
 
-.footer media{
-width: 450px;
-max-width: 100%;
-max-height: 450px;
-
+.footer media {
+  width: 450px;
+  max-width: 100%;
+  max-height: 450px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
